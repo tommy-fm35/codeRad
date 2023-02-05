@@ -5,7 +5,7 @@
   left: 0;
   z-index: 500;
   transition: ease-in-out 0.3s;
-  padding: 1rem;
+  padding: var(--size-16);
 }
 
 [aria-controls="navbarDropdown"] {
@@ -37,8 +37,8 @@
   font-weight: 600;
   font-family: "Hind", sans-serif;
   text-transform: uppercase;
-  margin-right: 2.5rem;
-  line-height: 1.25rem;
+  margin-right: var(--size-40);
+  line-height: var(--size-20);
 }
 
 .bg-header {
